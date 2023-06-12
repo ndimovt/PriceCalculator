@@ -39,8 +39,6 @@ public class FileReading {
         for(Map.Entry<String,String> specificProductInfo : readInformation(year).entrySet()){
             if(specificProductInfo.getKey().contains(agricultureProduct)){
                 System.out.println(specificProductInfo.getKey()+" : "+specificProductInfo.getValue());
-            }else {
-                System.out.println("Database doesn't contain information for "+agricultureProduct);
             }
         }
     }
