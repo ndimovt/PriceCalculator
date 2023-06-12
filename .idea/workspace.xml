@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="My agriculture project using threads. More work to come in future. Stay tuned :)">
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Agricultire.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/FileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/FileReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +73,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684954950602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies">
+      <created>1686408240994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686408240994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My agriculture project using threads. More work to come in future. Stay tuned :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="My agriculture project using threads. More work to come in future. Stay tuned :)" />
+    <MESSAGE value="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies" />
   </component>
 </project>
