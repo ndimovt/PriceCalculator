@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/FileReading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{

@@ -10,7 +10,7 @@ public class Main {
             String year = inn.nextLine();
             System.out.println("Enter agriculture name");
             String agriculture = inn.nextLine();
-            new FileReading().getSpecificAgricultureInfo(year, agriculture);
+            new DBReading().getSpecificAgricultureInfo(year, agriculture);
         } catch (NullPointerException npe) {
             System.out.println("No information for that year");
             npe.printStackTrace();
