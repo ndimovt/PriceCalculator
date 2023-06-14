@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies">
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/FileReading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +84,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686408240994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database">
+      <created>1686774491613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686774491613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My agriculture project using threads. More work to come in future. Stay tuned :)" />
     <MESSAGE value="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies" />
+    <MESSAGE value="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database" />
   </component>
 </project>
