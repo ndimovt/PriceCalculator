@@ -6,16 +6,13 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DataStructure {
-    private Map<String, Double> agricultureProductsAndPrices;
-    private Map<String, Double> putInfoInDataStructure(String year) {
-        Map<String, Double> agricultureInfo = new HashMap<>();
+public class FileReading {
+    private Map<String, String> readInformation(String year) {
+        Map<String, String> agricultureInfo = new HashMap<>();
         try {
             FileInputStream fileReader = new FileInputStream("C:\\Users\\Nikolai\\Desktop\\Prices.xlsx");
             Workbook readInfo = new XSSFWorkbook(fileReader);
@@ -25,8 +22,8 @@ public class DataStructure {
                 Cell valueCell = row.getCell(1);
                 if((keyCell != null) && (valueCell != null)){
                     String key = keyCell.toString();
-                    Double pValue = Double.parseDouble(valueCell.toString());
-                    agricultureInfo.put(key,pValue);
+                    String value = valueCell.toString();
+                    agricultureInfo.put(key,value);
                 }
             }
             closingStreams(readInfo,fileReader);
@@ -38,8 +35,19 @@ public class DataStructure {
         }
         return agricultureInfo;
     }
-    public Map<String, Double> productAndPriceList(String year){
-        return agricultureProductsAndPrices = putInfoInDataStructure(year);
+    public void getSpecificAgricultureInfo(String year, String agricultureProduct){
+        for(Map.Entry<String,String> specificProductInfo : readInformation(year).entrySet()){
+            if(specificProductInfo.getKey().contains(agricultureProduct)){
+                System.out.println(specificProductInfo.getKey()+" : "+specificProductInfo.getValue());
+            }else {
+                System.out.println("Database doesn't contain information for "+agricultureProduct);
+            }
+        }
+    }
+    public void getEntireAgricultureProductInfo(String year){
+        for(Map.Entry<String, String> allProductsInfo : readInformation(year).entrySet()){
+            System.out.println(allProductsInfo.getKey()+" : "+allProductsInfo.getValue());
+        }
     }
     private void closingStreams( Workbook workbook, FileInputStream fileInputStream) throws IOException{
         if(workbook != null){
