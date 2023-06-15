@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
