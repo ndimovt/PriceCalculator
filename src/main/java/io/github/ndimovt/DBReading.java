@@ -1,6 +1,5 @@
 package io.github.ndimovt;
 
-import java.sql.SQLOutput;
 import java.util.Map;
 public class DBReading {
     private DataStructure dataStructure = new DataStructure();
