@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1- Fixing varies issues and adding different cosmetic features">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBReading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DataStructure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686855148294</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject">
+      <created>1687110397656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687110397656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +114,7 @@
     <MESSAGE value="1 - created HashMap to store info&#10;2 - using MicrosoftOffice Excel as database&#10;3 - Options for getting all products info or specific product info&#10;4 - Added new POI dependencies" />
     <MESSAGE value="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database" />
     <MESSAGE value="1- Fixing varies issues and adding different cosmetic features" />
-    <option name="LAST_COMMIT_MESSAGE" value="1- Fixing varies issues and adding different cosmetic features" />
+    <MESSAGE value="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject" />
   </component>
 </project>
