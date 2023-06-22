@@ -1,9 +1,7 @@
 package io.github.ndimovt;
 
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
+import com.mongodb.*;
+import com.mongodb.client.model.CreateCollectionOptions;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -16,11 +14,12 @@ public class DBConnection {
         Logger mongoLogger = Logger.getLogger( "org.mongodb.driver" );
         mongoLogger.setLevel(Level.SEVERE);
         mongoClient = new MongoClient(new MongoClientURI("mongodb://localhost:27017"));
-        database = mongoClient.getDB("agriculture_products_and_prices");
+        database = mongoClient.getDB("agriculture_products_prices_2022");
     }
 
     public static DBCollection getCollection() {
-        collection = database.getCollection("agriculture");
+        collection = database.getCollection("2022");
         return collection;
     }
+
 }

@@ -1,6 +1,6 @@
 package io.github.ndimovt;
 
-public class AddInfoToDB {
+public class DBWriting {
     protected void addProductToDB(String productName, Double productPrice){
         DBConnection connection = new DBConnection();
         AgricultureProduct product = new AgricultureProduct(productName, productPrice);
