@@ -1,12 +1,11 @@
 package io.github.ndimovt;
 
 import com.mongodb.*;
-import com.mongodb.client.model.CreateCollectionOptions;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class DBConnection {
+public class DBOperations {
     private static MongoClient mongoClient;
     private static DB database;
     private static DBCollection collection;
@@ -17,9 +16,13 @@ public class DBConnection {
         database = mongoClient.getDB("agriculture_products_prices_2022");
     }
 
-    public static DBCollection getCollection() {
-        collection = database.getCollection("2022");
+    public static DBCollection getCollection(int choice) {
+        collection = database.getCollection(String.valueOf(choice));
         return collection;
+    }
+    public static DBCollection newCollection(int year){
+        String agrycultureYear = Integer.toString(year);
+        return database.createCollection(agrycultureYear, new BasicDBObject());
     }
 
 }

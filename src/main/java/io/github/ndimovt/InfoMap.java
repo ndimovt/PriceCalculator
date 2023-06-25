@@ -6,12 +6,16 @@ import com.mongodb.DBObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class InfoMap {
+    Scanner inn = new Scanner(System.in);
     private Map<String, Double> agriInfo = new HashMap<String,Double>();
     {
+        System.out.println("Enter year to get information.");
+        int a = inn.nextInt();
         DBObject query = new BasicDBObject();
-        DBCursor cursor = new DBConnection().getCollection().find(query);
+        DBCursor cursor = new DBOperations().getCollection(a).find(query);
         while (cursor.hasNext()){
             DBObject nextObject = cursor.next();
             String fieldName = (String) nextObject.get("Product");

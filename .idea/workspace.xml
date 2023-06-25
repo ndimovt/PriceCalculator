@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2023_22_14_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2023_22_14__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2023_23_12_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2023_23_12__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - created InfoMap class, it is creating and populating map with db info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/AddInfoToDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/InfoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/InfoMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,10 +153,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MongoTest" />
         <item itemvalue="JUnit.DBConnectionTest.testGetCollection" />
         <item itemvalue="JUnit.MongoTestTest" />
         <item itemvalue="JUnit.MongoTestTest.tsum" />
-        <item itemvalue="Application.MongoTest" />
         <item itemvalue="JUnit.MongoTestTest.testTwo" />
       </list>
     </recent_temporary>
@@ -223,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687113327583</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1 - created InfoMap class, it is creating and populating map with db info">
+      <created>1687426538657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687426538657</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +235,7 @@
     <MESSAGE value="1- Created seperate class for getting info from Database&#10;2 - Created seperate class for reading info from Database" />
     <MESSAGE value="1- Fixing varies issues and adding different cosmetic features" />
     <MESSAGE value="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject" />
+    <MESSAGE value="1 - created InfoMap class, it is creating and populating map with db info" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - created InfoMap class, it is creating and populating map with db info" />
   </component>
 </project>
