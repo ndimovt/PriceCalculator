@@ -16,13 +16,5 @@ public class AgricultureProduct {
     public double getProductPrice() {
         return productPrice;
     }
-
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
-
-    public void setProductPrice(double productPrice) {
-        this.productPrice = productPrice;
-    }
 }
 
