@@ -16,5 +16,6 @@ public class AgricultureProduct {
     public double getProductPrice() {
         return productPrice;
     }
+
 }
 

@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - added new &quot;newCollection&quot; for creating new collection file in MONGODB&#10;2 - added option to read and write info from specific file&#10;3 - added completely functional menu with 4 choices">
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/ReadShowCalculate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoUtilityPackage/MongoDBOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoUtilityPackage/DBConnectionAndCreateCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/AgricultureProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/AgricultureProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CreateDBObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBReading.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/InfoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/InfoMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/InfoMap.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687708910079</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database">
+      <created>1688216697177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688216697177</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,6 +255,7 @@
     <MESSAGE value="1 - changed from .xlsx database to Mongodb&#10;2 - made class to read from DB&#10;3 - made class to add info to DB&#10;4 - added special class for DB connection&#10;5 - added special class for creating DBObject" />
     <MESSAGE value="1 - created InfoMap class, it is creating and populating map with db info" />
     <MESSAGE value="1 - added new &quot;newCollection&quot; for creating new collection file in MONGODB&#10;2 - added option to read and write info from specific file&#10;3 - added completely functional menu with 4 choices" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 - added new &quot;newCollection&quot; for creating new collection file in MONGODB&#10;2 - added option to read and write info from specific file&#10;3 - added completely functional menu with 4 choices" />
+    <MESSAGE value="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database" />
   </component>
 </project>

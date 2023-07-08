@@ -1,13 +1,17 @@
 package io.github.ndimovt;
 
-import MongoUtilityPackage.MongoDBOperations;
+import MongoUtilityPackage.DBConnectionAndCreateCollection;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBObject;
 
 public class DBWriting {
-    protected void addProductToDB(String productName, double productPrice, int option){
-        MongoDBOperations mdbo = new MongoDBOperations();
+
+    public void addProductToDB(String productName, double productPrice, int option){
         AgricultureProduct product = new AgricultureProduct(productName, productPrice);
-        CreateDBObject createDBObject = new CreateDBObject();
-        mdbo.getCollection(option).insert(createDBObject.createProduct(product));
+        DBConnectionAndCreateCollection.getCollection(option).insert(createProduct(product));
+    }
+    private DBObject createProduct(AgricultureProduct agricultureProduct){
+        return new BasicDBObject("Product",agricultureProduct.getProductName()).append("Price per Ton",agricultureProduct.getProductPrice());
     }
 
 
