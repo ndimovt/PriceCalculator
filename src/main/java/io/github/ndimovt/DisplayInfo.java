@@ -11,5 +11,4 @@ public class DisplayInfo {
             System.out.println(products.getKey() +" / "+ products.getValue());
         }
     }
-
 }
