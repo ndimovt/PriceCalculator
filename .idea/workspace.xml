@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - Renamed class DBConnection from DBConnectionAndcreatenewCollection&#10;2 - DBConnection class only connects with mongoDB now&#10;3 - Reworked DBWriting class in order to get cleaner and easier to read code&#10;4 - ReadShowCalculate class now seperated in different classes&#10;5 - CalculateProfit only calculates profit via given quantity&#10;6 - Agriculture product has one more field called &quot;year&quot;&#10;7 - Created class DisplayInfo to display information for products with given year&#10;8 - created class CreateHashMap wich returns hashMap with infro from DB&#10;9 - completely reworked Database structure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CalculateProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CalculateProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689414551671</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements">
+      <created>1689426833230</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689426833230</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements">
+      <created>1689426851573</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689426851573</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,6 +288,7 @@
     <MESSAGE value="1 - made DBConnectionAndCreateCollection.java static and all his methods and fields static as well&#10;2 - created ReadShowCalculate.java class to calculate price and show all objects in HashMap&#10;3 - you can choose product and year to search&#10;4- added various checks for correct program working" />
     <MESSAGE value="1 - Renamed class DBConnection from DBConnectionAndcreatenewCollection&#10;2 - DBConnection class only connects with mongoDB now&#10;3 - Reworked DBWriting class in order to get cleaner and easier to read code&#10;4 - ReadShowCalculate class now seperated in different classes&#10;5 - CalculateProfit only calculates profit via given quantity&#10;6 - Agriculture product has one more field called &quot;year&quot;&#10;7 - Created class DisplayInfo to display information for products with given year&#10;8 - created class CreateHashMap wich returns hashMap with infro from DB" />
     <MESSAGE value="1 - Renamed class DBConnection from DBConnectionAndcreatenewCollection&#10;2 - DBConnection class only connects with mongoDB now&#10;3 - Reworked DBWriting class in order to get cleaner and easier to read code&#10;4 - ReadShowCalculate class now seperated in different classes&#10;5 - CalculateProfit only calculates profit via given quantity&#10;6 - Agriculture product has one more field called &quot;year&quot;&#10;7 - Created class DisplayInfo to display information for products with given year&#10;8 - created class CreateHashMap wich returns hashMap with infro from DB&#10;9 - completely reworked Database structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 - Renamed class DBConnection from DBConnectionAndcreatenewCollection&#10;2 - DBConnection class only connects with mongoDB now&#10;3 - Reworked DBWriting class in order to get cleaner and easier to read code&#10;4 - ReadShowCalculate class now seperated in different classes&#10;5 - CalculateProfit only calculates profit via given quantity&#10;6 - Agriculture product has one more field called &quot;year&quot;&#10;7 - Created class DisplayInfo to display information for products with given year&#10;8 - created class CreateHashMap wich returns hashMap with infro from DB&#10;9 - completely reworked Database structure" />
+    <MESSAGE value="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements" />
   </component>
 </project>

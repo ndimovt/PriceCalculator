@@ -9,8 +9,8 @@ public class Main {
         String name;
         while (istrue) {
             System.out.println("1) Enter info 2) Show full info 3) Calculate Price 4) Exit");
-            int a = inn.nextInt();
-            switch (a) {
+            int userChoice = inn.nextInt();
+            switch (userChoice) {
                 case 1:
                     System.out.println("Enter Year:");
                     int year = inn.nextInt();
