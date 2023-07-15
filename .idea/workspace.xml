@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/ReadShowCalculate.java" afterDir="false" />
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - made DBConnectionAndCreateCollection.java static and all his methods and fields static as well&#10;2 - created ReadShowCalculate.java class to calculate price and show all objects in HashMap&#10;3 - you can choose product and year to search&#10;4- added various checks for correct program working">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/mongoutilitypackage/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoUtilityPackage/MongoDBOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoUtilityPackage/DBConnectionAndCreateCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoUtilityPackage/DBConnectionAndCreateCollection.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/AgricultureProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/AgricultureProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CreateDBObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBReading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CreateHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CreateHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DBWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/InfoMap.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/ReadShowCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/DisplayInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="MongoUtilityPackage" />
       <recent name="io.github.ndimovt" />
     </key>
   </component>
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688216697177</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1 - made DBConnectionAndCreateCollection.java static and all his methods and fields static as well&#10;2 - created ReadShowCalculate.java class to calculate price and show all objects in HashMap&#10;3 - you can choose product and year to search&#10;4- added various checks for correct program working">
+      <created>1688827315516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688827315516</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,6 +263,7 @@
     <MESSAGE value="1 - created InfoMap class, it is creating and populating map with db info" />
     <MESSAGE value="1 - added new &quot;newCollection&quot; for creating new collection file in MONGODB&#10;2 - added option to read and write info from specific file&#10;3 - added completely functional menu with 4 choices" />
     <MESSAGE value="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 - crated package for connection with mongodb, moved getCollection and newCollection methods in it&#10;2 - added option to check for existing database" />
+    <MESSAGE value="1 - made DBConnectionAndCreateCollection.java static and all his methods and fields static as well&#10;2 - created ReadShowCalculate.java class to calculate price and show all objects in HashMap&#10;3 - you can choose product and year to search&#10;4- added various checks for correct program working" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - made DBConnectionAndCreateCollection.java static and all his methods and fields static as well&#10;2 - created ReadShowCalculate.java class to calculate price and show all objects in HashMap&#10;3 - you can choose product and year to search&#10;4- added various checks for correct program working" />
   </component>
 </project>
