@@ -1,6 +1,9 @@
 package io.github.ndimovt.mongoutilitypackage;
 
-import com.mongodb.*;
+import com.mongodb.MongoClient;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.MongoClientURI;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -24,7 +27,4 @@ public class DBConnection {
         return collection;
     }
 
-    public static DB getDatabase() {
-        return database;
-    }
 }
