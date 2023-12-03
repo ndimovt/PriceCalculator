@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements" />
+    <list default="true" id="e31ff0f0-04ee-4729-a50d-0e24ba780e6b" name="Changes" comment="1 - rename a in main() to userChoice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CalculateProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/CalculateProfit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -49,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nikolai/IdeaProjects/PriceCalculator&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "junit.framework.TestCase",
+    "last_opened_file_path": "C:/Users/Nikolai/IdeaProjects/PriceCalculator",
+    "settings.editor.selected.configurable": "application.passwordSafe"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="MongoUtilityPackage" />
       <recent name="io.github.ndimovt" />
+      <recent name="MongoUtilityPackage" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectionTest.testGetCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateHashMapTest.testPopulateMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PriceCalculator" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.ndimovt" />
-      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.DBConnectionTest" />
-      <option name="METHOD_NAME" value="testGetCollection" />
+      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.CreateHashMapTest" />
+      <option name="METHOD_NAME" value="testPopulateMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfoMapTest.mapShouldNotBeEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplayInfoTest.testdisplayInfoForParticularYear (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PriceCalculator" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.ndimovt" />
-      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.InfoMapTest" />
-      <option name="METHOD_NAME" value="mapShouldNotBeEmpty" />
+      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.DisplayInfoTest" />
+      <option name="METHOD_NAME" value="testdisplayInfoForParticularYear(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfoMapTest.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplayInfoTest.testdisplayInfoForParticularYear (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PriceCalculator" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +130,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.ndimovt" />
-      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.InfoMapTest" />
-      <option name="METHOD_NAME" value="testMap" />
+      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.DisplayInfoTest" />
+      <option name="METHOD_NAME" value="testdisplayInfoForParticularYear" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfoMapTest.testReturnMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplayInfoTest.testdisplayInfoForParticularYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PriceCalculator" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +146,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.ndimovt" />
-      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.InfoMapTest" />
-      <option name="METHOD_NAME" value="testReturnMap" />
+      <option name="MAIN_CLASS_NAME" value="io.github.ndimovt.DisplayInfoTest" />
+      <option name="METHOD_NAME" value="testdisplayInfoForParticularYear(org.junit.jupiter.api.TestReporter,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InfoMapTest.mapShouldNotBeEmpty" />
-        <item itemvalue="JUnit.InfoMapTest.testMap" />
-        <item itemvalue="JUnit.InfoMapTest.testReturnMap" />
+        <item itemvalue="JUnit.DisplayInfoTest.testdisplayInfoForParticularYear (2)" />
+        <item itemvalue="JUnit.DisplayInfoTest.testdisplayInfoForParticularYear (1)" />
+        <item itemvalue="JUnit.DisplayInfoTest.testdisplayInfoForParticularYear" />
+        <item itemvalue="JUnit.CreateHashMapTest.testPopulateMap" />
         <item itemvalue="Application.MongoTest" />
-        <item itemvalue="JUnit.DBConnectionTest.testGetCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689426851573</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1 - rename a in main() to userChoice">
+      <created>1689427113411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689427113411</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +300,7 @@
     <MESSAGE value="1 - Renamed class DBConnection from DBConnectionAndcreatenewCollection&#10;2 - DBConnection class only connects with mongoDB now&#10;3 - Reworked DBWriting class in order to get cleaner and easier to read code&#10;4 - ReadShowCalculate class now seperated in different classes&#10;5 - CalculateProfit only calculates profit via given quantity&#10;6 - Agriculture product has one more field called &quot;year&quot;&#10;7 - Created class DisplayInfo to display information for products with given year&#10;8 - created class CreateHashMap wich returns hashMap with infro from DB" />
     <MESSAGE value="1 - Renamed class DBConnection from DBConnectionAndcreatenewCollection&#10;2 - DBConnection class only connects with mongoDB now&#10;3 - Reworked DBWriting class in order to get cleaner and easier to read code&#10;4 - ReadShowCalculate class now seperated in different classes&#10;5 - CalculateProfit only calculates profit via given quantity&#10;6 - Agriculture product has one more field called &quot;year&quot;&#10;7 - Created class DisplayInfo to display information for products with given year&#10;8 - created class CreateHashMap wich returns hashMap with infro from DB&#10;9 - completely reworked Database structure" />
     <MESSAGE value="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 - removed getDatabase() method because it was unused&#10;2 - added existing product check in addProductToDb() in DBWriting.java&#10;3 - added profit(), showInfo() and insertRecordInDB() methods in Main class&#10;4 - remove unused import statements" />
+    <MESSAGE value="1 - rename a in main() to userChoice" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 - rename a in main() to userChoice" />
   </component>
 </project>
